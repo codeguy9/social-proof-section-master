@@ -110,3 +110,30 @@ body {
     margin: auto;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width: 500px) {
+    .upper-main {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .upper-left-main {
+        width: 100%
+    }
+
+    .flex-box {
+        width: 100%;
+        display:block
+    }
+
+    .bottom-main {
+        display:block;
+        
+    }
+
+    .col {
+        width: 90%;
+    }
+
+}
